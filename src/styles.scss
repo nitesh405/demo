@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+$primary:rgb(90, 90, 128);
+
+:root{
+        --success: #86C57A;
+        --error-color: hsl(359, 84%, 69%);
+}
+
+body{
+    background-color:$primary;
+}

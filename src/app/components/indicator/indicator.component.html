@@ -1,0 +1,9 @@
+<div class="step-indicator">
+    <div *ngFor="let step of steps; let i = index" [ngClass]="{'active': i === currentStep}">
+        Step {{ i + 1 }}
+    </div>
+</div>
+
+
+
+<app-popup [currentStep]="currentStep" [stepInstructions]="stepInstructions" (nextStep)="nextStep($event)"></app-popup>

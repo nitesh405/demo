@@ -1,0 +1,5 @@
+<div class="popup">
+    <h2>Step {{ currentStep + 1 }}</h2>
+    <p>{{ stepInstructions }}</p>
+    <button (click)="nextStep.emit();openDialog()">OK</button>
+  </div>

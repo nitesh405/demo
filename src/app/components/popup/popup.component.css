@@ -1,0 +1,10 @@
+.popup {
+    background-color: var(--error-color);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .popup button {
+    margin-top: 10px;
+  }
